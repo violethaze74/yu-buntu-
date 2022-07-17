@@ -71,7 +71,7 @@ updates:
   ignore:
     # ignore all GitHub linguist patch updates
     - dependency-name: "*"
-      update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      update-types: ["version-update:server-major", "version-update:server-minor"]
 
 - package-ecosystem: npm
   directory: "/"
@@ -89,7 +89,7 @@ updates:
   ignore:
     # ignore all GitHub linguist patch updates
     - dependency-name: "*"
-      update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      update-types: ["version-update:server-major", "version-update:server-minor"]
 
 - package-ecosystem: npm
   directory: "/"
@@ -107,7 +107,7 @@ updates:
   ignore:
     # ignore all GitHub linguist patch updates
     - dependency-name: "*"
-      update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      update-types: ["version-update:server-major", "version-update:server-minor"]
 
 # Testing StableXX composer
 - package-ecosystem: composer
@@ -126,7 +126,7 @@ updates:
   ignore:
     # ignore all GitHub linguist patch updates
     - dependency-name: "*"
-      update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      update-types: ["version-update:server-major", "version-update:server-minor"]
 
 - package-ecosystem: composer
   directory: "/build/integration"
@@ -144,7 +144,7 @@ updates:
   ignore:
     # ignore all GitHub linguist patch updates
     - dependency-name: "*"
-      update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      update-types: ["version-update:server-major", "version-update:server-minor"]
 
 - package-ecosystem: composer
   directory: "/build/integration"
@@ -162,4 +162,4 @@ updates:
   ignore:
     # ignore all GitHub linguist patch updates
     - dependency-name: "*"
-      update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      update-types: ["version-update:server-major", "version-update:server-minor"]
